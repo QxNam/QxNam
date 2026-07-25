@@ -1,7 +1,7 @@
 <table style="border: none;">
   <tr>
-    <td style="border: none; vertical-align: top;">
-      <img src="https://share.text-image.com/89a79d75d29e06cf" width="340" alt="ASCII Portrait">
+    <td style="border: none;">
+      <img src="./images/avatar.svg" alt="My Pixel Avatar">
     </td>
     <td style="border: none;">
 <pre>
