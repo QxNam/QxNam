@@ -1,6 +1,6 @@
 import re
 
-with open("pre_html.md", "r", encoding="utf-8") as f:
+with open("resources/pre_html.md", "r", encoding="utf-8") as f:
     html_code = f.read()
 
 # Tách các dòng trong thẻ pre

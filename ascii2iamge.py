@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 
-with open("images/ascii.md", "r", encoding="utf-8") as f:
+with open("resources/ascii.md", "r", encoding="utf-8") as f:
     ascii_art = f.read().splitlines()
 
 # 1. Cấu hình font
@@ -43,7 +43,7 @@ for r, line in enumerate(ascii_art):
             draw.text((x, y), char, fill=(20, 20, 20), font=font)
 
 # 4. Cố định chiều cao (ví dụ: h = 400), chiều rộng tự động co giãn theo tỷ lệ chuẩn mới
-target_height = 400
+target_height = 512
 aspect_ratio = img_width / img_height
 target_width = int(target_height * aspect_ratio)
 
