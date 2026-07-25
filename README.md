@@ -1,7 +1,7 @@
 <table style="border: none;">
   <tr>
     <td style="border: none;">
-      <img src="./images/ascii-avatar.png" alt="My Pixel Avatar">
+      <img src="./images/avatar.svg" alt="My Pixel Avatar">
     </td>
     <td style="border: none;">
 <pre>
